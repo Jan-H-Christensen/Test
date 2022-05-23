@@ -1,0 +1,21 @@
+*{
+    -fx-base: black;
+}
+
+.button{
+    -fx-text-fill: white;
+    -fx-shape: "M 200 300 L 200 350 L 300 350 L 300 300 Z";
+    -fx-background-color: darkred;
+    -fx-effect: dropshadow(three-pass-box,black,10,0,0,0);
+}
+
+.button:hover{
+    -fx-background-color: red;
+}
+
+.slider:hover{
+    -fx-background-color: gray;
+}
+
+
+
